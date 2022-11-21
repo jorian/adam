@@ -8,6 +8,6 @@ If the chain is not started, the name will be an empty string.
 
 ## Special case
 
-The verus(test) chain is a special case. It does have a currencyidhex, but it is not used as such on the local system. Its blockchain also lives in a different location (~/.komodo/) than the PBaaS chains (~/.verustest/). 
+The verus(test) chain is a special case. It does have a currencyidhex, but it is not used as such on the local system. Its blockchain also lives in a different location (`~/.komodo/`) than the PBaaS chains (`~/.verustest/`). 
 
-As seen in main.rs, for Verus chains you would need to specify its currencyidhex manually. This is `2d4eb6919e9fdb2934ff2481325e6335a29eefa6` and is automatically done in `verus.rs`.
+As seen in `main.rs`, for Verus chains you would need to specify its currencyidhex manually. This is `2d4eb6919e9fdb2934ff2481325e6335a29eefa6` for `vrsctest` and is automatically done in `verus.rs`.
