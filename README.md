@@ -1,4 +1,4 @@
-# PBaaS Logos
+# Adam
 
 A little app that scans the local system for natively installed PBaaS chains. It creates a RPC client for every chain and does a RPC to retrieve the name.
 
